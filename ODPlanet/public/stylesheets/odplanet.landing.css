@@ -14,7 +14,7 @@
 .text{color:#DF4A32; font-weight:bold;}
 .justify{text-align:justify; margin:10px;padding:15px;}
 .footer{background-color: #333;color: #fff; }
-.copy-right{background:#73B6E3;padding:20px 40px 10px 10px; color:#fff; font-weight:bold;}
+.copy-right{background:#C1EA4E;padding:20px 40px 10px 10px; color:#fff; font-weight:bold;}
 .nav-min{background:#DF4A32;}
 .line-color{color:#fff;}
 .shado-border{
@@ -22,4 +22,14 @@ border-radius:10px;
 box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
 -moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
 -webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px){
+	
+	.full-width{
+		width:100%; 
+		padding:0 10px 0 10px;
+	
+	}
+	
 }
